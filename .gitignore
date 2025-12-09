@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python / Django (Backend)
+backend/venv/
+backend/__pycache__/
+backend/*/migrations/
+*.pyc
+
+# Node / Next.js (Frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local

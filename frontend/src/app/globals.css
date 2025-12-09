@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@theme {
+  --color-serenova-primary: #6B9080;
+  --color-serenova-secondary: #A4C3B2;
+  --color-serenova-accent: #CCE3DE;
+  --color-serenova-bg: #EAF4F4;
+  --color-serenova-dark: #2C3E50;
+  --color-serenova-warning: #E8B4B8;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
