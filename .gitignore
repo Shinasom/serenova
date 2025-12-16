@@ -7,6 +7,8 @@ backend/venv/
 backend/__pycache__/
 backend/*/migrations/
 *.pyc
+
+
 # Node / Next.js (Frontend)
 frontend/node_modules/
 frontend/.next/
